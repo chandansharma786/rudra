@@ -26,7 +26,7 @@ http.createServer (function(request, response) {
           MongoClient.connect("mongodb://localhost:27017/changdb", function(err, db) {
             if(!err) {
               console.log("We are connected");
-              MongoClient.
+              //MongoClient.
             }
           });
 
